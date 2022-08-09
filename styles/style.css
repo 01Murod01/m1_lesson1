@@ -1,0 +1,61 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #85A5D4;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.box {
+    display: flex;
+    margin-top: 100px;
+    list-style-type: none;
+    padding: 20px 30px 30px 20px;
+    text-align: center;
+}
+
+.card {
+    padding: 20px 14px 0px 14px;
+    width: 33%;
+}
+
+.active {
+    background-color: #f6f6f6;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: #556EC2;
+}
+
+.text {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.price {
+    color: #556EC2;
+    font-size: 13px;
+}
+
+.number {
+    font-size: 25px;
+    font-weight: 500;
+}
